@@ -1,0 +1,36 @@
+#navBar{
+    background-color: #042326;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#navBar-contenedor{
+    width: 80%;
+    height: 100%;
+}
+
+h1{
+    font-size: 28px;
+    color: #107361 ;
+    font-weight: bold;
+}
+
+
+#menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu ul li {
+    margin-top: 25%;
+}
+#menu ul li a .btn{
+    border: none;
+    width: 100%;
+    color: white;
+}
+#menu ul li a .btn:hover{
+    background-color: #0A3A40;
+}
